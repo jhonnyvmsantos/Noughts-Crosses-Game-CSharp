@@ -80,7 +80,6 @@ namespace noughts_crosses_game
 		void ButtonClick(object sender, EventArgs e) 
 		{
 			Button b = sender as Button;
-			b.BackColor = Color.White;
 			b.BackgroundImageLayout = ImageLayout.Stretch;
 			
 			switch (player)
@@ -98,14 +97,89 @@ namespace noughts_crosses_game
 			}
 			
 			b.Enabled = false;
-			CheckWinner();
+			CheckWinner(Convert.ToInt32(b.Tag));
 			
 			actual.Text = "PLAYER: " + (player + 1).ToString();
+			this.ActiveControl = null; 
 		}
 		
-		void CheckWinner()
+		void CheckWinner(int tag)
 		{
+			bool draw = false;
 			
+			int[] listVertical = new int[9]
+			{
+				0, 3, 6, 1, 4, 7, 2, 5, 8
+			};
+			
+			int[] listDiagonal = new int[6]
+			{
+				0, 4, 8, 2, 4, 6
+			};
+				
+			for (int i = 0; i < 2; i++)
+			{
+				bool validation = false;
+				int horizontal = 0;
+				int vertical = 0;
+				int diagonal = 0;
+
+				for (int index = 0; index < 9; index++)
+				{
+					if (listSelected[index] == i)
+					{
+						horizontal++;
+					}
+					
+					if (listSelected[listVertical[index]] == i)
+					{
+						vertical++;
+					} 
+					
+					if (index < 6)
+					{
+						if (listSelected[listDiagonal[index]] == i)
+						{
+							diagonal++;
+						} 
+					}
+					
+					if (horizontal >= 3 || vertical >= 3 || diagonal >= 3)
+					{
+						validation = true;
+						break;
+					}
+					
+					if (index == 2 || index == 5 || index == 8)
+					{
+						horizontal = 0;	vertical = 0; diagonal = 0;
+					}
+				}
+				
+				
+				if (validation == true)
+				{
+					MessageBox.Show("O Player " + (i + 1).ToString() + " Venceu o jogo!!!");
+					GameRestart();
+					break;
+				}
+				
+				if (i == 1)
+				{
+					draw = true;
+				}
+			}
+			
+			if (draw = true && Array.Exists(listSelected, element => element == 9) == false)
+			{
+				MessageBox.Show("VELHA!!! Infelizmente (?), ninguém venceu o jogo.");
+				GameRestart();
+			}
+		}
+		
+		void GameRestart()
+		{
+			Application.Restart();
 		}
 	}
 }
