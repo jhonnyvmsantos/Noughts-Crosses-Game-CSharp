@@ -44,7 +44,7 @@ namespace noughts_crosses_game
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.ClientSize = new System.Drawing.Size(484, 362);
 			this.Name = "MainForm";
-			this.Text = "noughts_crosses_game";
+			this.Text = "Noughts Crosses";
 			this.Load += new System.EventHandler(this.MainFormLoad);
 			this.ResumeLayout(false);
 		}

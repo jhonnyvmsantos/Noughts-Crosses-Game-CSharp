@@ -14,3 +14,11 @@ C:\Users\mjhon\OneDrive\Área de Trabalho\Rever\C#\Noughts Crosses\noughts_cross
 C:\Users\mjhon\OneDrive\Área de Trabalho\Rever\C#\Noughts Crosses\noughts_crosses_game\obj\Debug\noughts_crosses_game.csproj.GenerateResource.Cache
 C:\Users\mjhon\OneDrive\Área de Trabalho\Rever\C#\Noughts Crosses\noughts_crosses_game\obj\Debug\noughts_crosses_game.exe
 C:\Users\mjhon\OneDrive\Área de Trabalho\Rever\C#\Noughts Crosses\noughts_crosses_game\obj\Debug\noughts_crosses_game.pdb
+C:\Users\mjhon\OneDrive\Área de Trabalho\Rever\C#\Noughts-Crosses-Game\Noughts Crosses\noughts_crosses_game\bin\Debug\noughts_crosses_game.exe.config
+C:\Users\mjhon\OneDrive\Área de Trabalho\Rever\C#\Noughts-Crosses-Game\Noughts Crosses\noughts_crosses_game\bin\Debug\noughts_crosses_game.exe
+C:\Users\mjhon\OneDrive\Área de Trabalho\Rever\C#\Noughts-Crosses-Game\Noughts Crosses\noughts_crosses_game\bin\Debug\noughts_crosses_game.pdb
+C:\Users\mjhon\OneDrive\Área de Trabalho\Rever\C#\Noughts-Crosses-Game\Noughts Crosses\noughts_crosses_game\obj\Debug\noughts_crosses_game.csprojResolveAssemblyReference.cache
+C:\Users\mjhon\OneDrive\Área de Trabalho\Rever\C#\Noughts-Crosses-Game\Noughts Crosses\noughts_crosses_game\obj\Debug\noughts_crosses_game.MainForm.resources
+C:\Users\mjhon\OneDrive\Área de Trabalho\Rever\C#\Noughts-Crosses-Game\Noughts Crosses\noughts_crosses_game\obj\Debug\noughts_crosses_game.csproj.GenerateResource.Cache
+C:\Users\mjhon\OneDrive\Área de Trabalho\Rever\C#\Noughts-Crosses-Game\Noughts Crosses\noughts_crosses_game\obj\Debug\noughts_crosses_game.exe
+C:\Users\mjhon\OneDrive\Área de Trabalho\Rever\C#\Noughts-Crosses-Game\Noughts Crosses\noughts_crosses_game\obj\Debug\noughts_crosses_game.pdb
